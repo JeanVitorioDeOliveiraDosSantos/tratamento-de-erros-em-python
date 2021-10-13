@@ -63,4 +63,12 @@
  
 # git checkout --"nome do arquio": isos ira retirar reverter as alterações feitas em um arquivo onde vc adulterou recentemente 
 
+# git rm "nome do arquivo": remove arquivos do seu repositorio 
+
+# tags: servem para criar marcaçõs uma forma de poder facilitar o acesso a um determinado arquivo 
+ 
+# git tag -a "nome da sua tag" -m " mensagem da sua tag ": isso irá criar uma tag nova  
+
+# git tag "nome da sua tag " chave /id do comit no qual vc quer criar a tag -m" mensagem "
+
 # 
