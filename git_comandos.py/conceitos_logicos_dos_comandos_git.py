@@ -56,3 +56,11 @@
 # gitk: abre a interface grafica do git
 
 # git commit --amend -m " mensagem da sua escolha ": isso adiciona suas alterações a ao ultimo commit já existente  
+
+# git reset HEAD "nome do arquivo": isso retira da sua staged area o add que vc adicionou 
+ 
+# staged area:  é onde o aequivo que vc deu add vai parar, o arquivo só sai de lá quando é dado o commit 
+ 
+# git checkout --"nome do arquio": isos ira retirar reverter as alterações feitas em um arquivo onde vc adulterou recentemente 
+
+# 
