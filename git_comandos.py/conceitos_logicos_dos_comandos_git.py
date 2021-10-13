@@ -18,6 +18,8 @@
 
 # git reflog: verá os hitorico de commits  
 
+# git log: devolverá um inventario dos comits, o hitorico ///// digite a letra : q no seu teclado e ele irá sair do log
+
 # git hist: verá o hitorico de commits assim como o raflog
 
 # git reset --hard " id alcançavel pelos historicos de commits ": isso permitira que vc navegue entre versões antigas e niovas do seu cod 
