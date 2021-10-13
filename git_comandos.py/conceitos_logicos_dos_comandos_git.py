@@ -47,7 +47,12 @@
 # Caso vc queira ter um arquivo no qual o git não vai monitorar dentro da sua pasta salve o arquivo com o seguinte nome:
 # .gitignore
 
-# git diff --staged: isso mostrará o que está na sua staged area ou seja vc deu add 
+# git diff --staged: isso mostrará o que está na sua staged area ou seja vc deu add mas ainda não comitou 
 
-#
+# git log -p: traz as mesmas propriedades que o log mas em um nivel de especificação maior 
+ 
+# git log -p -"numero escolhido": ele vai delmitr um numero maximo de logs a serem apresentados na tela ( a contagem é feita de tráz pra frente )
 
+# gitk: abre a interface grafica do git
+
+# git commit --amend -m " mensagem da sua escolha ": isso adiciona suas alterações a ao ultimo commit já existente  
