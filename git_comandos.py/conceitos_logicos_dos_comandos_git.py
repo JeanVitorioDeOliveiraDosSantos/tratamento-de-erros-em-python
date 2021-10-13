@@ -5,6 +5,8 @@
 # git add . : adiciona todas as pastas pedentes ou 
 # seja adiciona tudo o que estiver pendente
 
+# git add "nome do arquivo": ele vai adicionar apenas este documento 
+
 # git commit -m " ele faz um novo commit  "
 
 # git config --global user-name " aqui coloque sei=u nome de usuario registrado no GitHub "
