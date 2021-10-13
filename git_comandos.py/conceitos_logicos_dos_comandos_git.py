@@ -43,3 +43,7 @@
 # git revert " id ": apaga algo
 
 # git remote -v: vai remover o URL que vc tinha adicionado para usar como diretorio
+
+# Caso vc queira ter um arquivo no qual o git não vai monitorar dentro da sua pasta salve o arquivo com o seguinte nome:
+# .gitignore
+
