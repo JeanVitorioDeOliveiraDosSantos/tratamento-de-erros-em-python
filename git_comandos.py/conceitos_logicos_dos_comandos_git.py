@@ -7,7 +7,7 @@
 
 # git add "nome do arquivo": ele vai adicionar apenas este documento 
 
-# git commit -m " ele faz um novo commit  "
+# git commit -m " mensagem que especifica a alteração ": ele salva as alterções 
 
 # git config --global user-name " aqui coloque sei=u nome de usuario registrado no GitHub "
 
