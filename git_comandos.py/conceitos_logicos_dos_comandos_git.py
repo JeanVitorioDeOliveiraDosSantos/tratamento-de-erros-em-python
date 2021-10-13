@@ -70,5 +70,3 @@
 # git tag -a "nome da sua tag" -m " mensagem da sua tag ": isso irá criar uma tag nova  
 
 # git tag "nome da sua tag " chave /id do comit no qual vc quer criar a tag -m" mensagem "
-
-# 
