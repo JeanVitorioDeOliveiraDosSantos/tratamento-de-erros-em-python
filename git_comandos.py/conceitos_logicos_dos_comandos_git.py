@@ -47,3 +47,7 @@
 # Caso vc queira ter um arquivo no qual o git não vai monitorar dentro da sua pasta salve o arquivo com o seguinte nome:
 # .gitignore
 
+# git diff --staged: isso mostrará o que está na sua staged area ou seja vc deu add 
+
+#
+
