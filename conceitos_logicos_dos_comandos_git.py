@@ -33,3 +33,9 @@
 # git checkout "nome da branch": Isso irá te dar acesso a uma branche ou seja acesso
 
 # git pull: caso vc esteja trabalhando com mais alguém isso trará as alteraçoes do servidor para a maquina
+
+# git diff: Antes de vc adicionar as mudanças aponta as mudanças feitas no cod  
+
+# git revert " id ": apaga algo
+
+# git remote -v: vai remover o URL que vc tinha adicionado para usar como diretorio
