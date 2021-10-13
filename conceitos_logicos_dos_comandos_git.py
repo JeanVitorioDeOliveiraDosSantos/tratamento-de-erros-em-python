@@ -21,3 +21,15 @@
 # git hist: verá o hitorico de commits assim como o raflog
 
 # git reset --hard " id alcançavel pelos historicos de commits ": isso permitira que vc navegue entre versões antigas e niovas do seu cod 
+
+# branche: são caminhos que vc vai seguir ou seja vc pode ter varias versões de um mesmo cod sem precisar perder o principal 
+
+# merge: fusão de branchs
+
+# git branch: isso lhe dirá quantas branchs existem no documneto
+
+# git branch "nome aleatorio": isso vai definir uma nova branch
+
+# git checkout "nome da branch": Isso irá te dar acesso a uma branche ou seja acesso
+
+# git pull: caso vc esteja trabalhando com mais alguém isso trará as alteraçoes do servidor para a maquina
