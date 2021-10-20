@@ -5,7 +5,7 @@ try:
 ### : para printar a lista a no indice 1 mas a lista está vazia 
 except Exception as error:
     print(" Erro inesperado! ")
-### caso  o except detecatar um eror qualquer oun seja qualquer erro ele printa : #### Erro inesperado! ####
+### caso  o except detecatar um error qualquer ou seja qualquer erro ele printa : #### Erro inesperado! ####
 except KeyError as erro_de_indice:
     print(" Erro de indice! ")
 ### caso o except detectar o erro especificamente o KeyError ele printa = ### Erro de indice! ###  
@@ -16,5 +16,4 @@ finally:
     a = [1, 2]
     print(" Apesar do erro o cod está funconando normal ")
 print(f" a lista a :{a} ")
-### O finally será rodado todavez mas no final do cod 
-#  
+### O finally será rodado todavez independenete das outras estruturas (execpt, try) mas no final do cod. 
