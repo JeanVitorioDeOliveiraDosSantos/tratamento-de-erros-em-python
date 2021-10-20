@@ -8,7 +8,7 @@ except Exception as error:
 ### caso  o except detecatar um error qualquer ou seja qualquer erro ele printa : #### Erro inesperado! ####
 except KeyError as erro_de_indice:
     print(" Erro de indice! ")
-### caso o except detectar o erro especificamente o KeyError ele printa = ### Erro de indice! ###  
+### caso o except detectar o erro especificamente o KeyError ( uma chave não encontrada no dic )ele printa = ### Erro de indice! ###  
 else:
     print(" O else carrega caso os except não rodar, ou seja caso não aver erros no cod ")
 ### Else terá a mesma função que tinha no if, ou seja caso o execpt não detectar erro o else será rodado
@@ -28,8 +28,8 @@ numero2 = 0
 numero3 = str()
 numero4 = 0
 try:
-    numero1 = int(input(" numero 1 "))
-    numero2 = int(input(" numero 2 "))
+    numero1 = int(input(" Numero 1 "))
+    numero2 = int(input(" Numero 2 "))
 except ValueError as ZeroDivisionError:
     if (numero1 != int()):
         numero3 = "Segundo numero digitado não é um inteiro"
@@ -41,12 +41,31 @@ except ValueError as ZeroDivisionError:
 else:
     numero_resposta = numero1 / numero2
     print("claculo sendo feito")
-    print(f" o resultado é : {numero_resposta} ")
+    print(f" O resultado é : {numero_resposta} ")
 
 finally:
     print("FIM")
 
 # /////// fim 
 
+# Crie uma exeption que faça uma interrupção caso um obj seja com um valor inteiro superior a 100
 
+class Numero:
+    b = str()
+    c = str() 
 
+    b = int(input(" Qual o numero a para ser multiplicado? :  "))
+    c = int(input(" Qual o numero b para ser multiplicado? :  "))
+    a = b ** c 
+    h = a
+    IOO = 100
+    try:
+        if IOO >= h:
+            h  = str()
+    except ValueError as NumeroDeErro:
+        print(" Numeros maiores que 100 não serão imprimidos ")
+    else:
+        print(" O resultado é :  --> ")
+        print(f"numero é :  {h}")
+    finally:
+        print(" Opercao finalizada ")
