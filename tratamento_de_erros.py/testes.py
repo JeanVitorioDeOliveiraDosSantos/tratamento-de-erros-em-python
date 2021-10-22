@@ -94,5 +94,22 @@ class motion:
 person1 = motion()
 
 
-d = 9 / 0
+d = 9 / 2
 print(d)
+
+
+
+def erro_de_progress(numero):
+    if (numero == float()):
+        print("numero float")
+    if (numero == int()):
+        print("numero inteiro")
+    if (numero == str()):
+        print(" uma str() ")
+    if (numero == list()):
+        print(" uma lista ")
+    else:
+        print(" não é nada ")
+
+
+person3 = erro_de_progress(9)
